@@ -1,12 +1,13 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { GradientTexture } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+
+useGLTF.preload("/desktop_pc/scene.gltf");
 const Computers = ({ isMobile }) => {
-  const gltfImage = "/desktop_pc/scene.gltf";
-  const computer = useGLTF(gltfImage);
+  const computer = useGLTF("/desktop_pc/scene.gltf");
 
   return (
     <group dispose={null}>
@@ -70,9 +71,9 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
+
         <Computers isMobile={isMobile} />
       </Suspense>
-
       <Preload all />
     </Canvas>
   );
