@@ -4,6 +4,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Canvas } from "@react-three/fiber";
 
 function Model() {
+  const imgcomp = "/desktop_pc/scene.gltf" || null;
   const gltf = useLoader(GLTFLoader, "/desktop_pc/scene.gltf");
   const modelRef = useRef();
 
