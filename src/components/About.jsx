@@ -93,7 +93,7 @@ const About = () => {
     });
   }, []);
   return (
-    <div className="py-[10%]" id="about">
+    <div className="py-[35%] lg:py-[10%]" id="about">
       <motion.div
         data-aos="fade-up"
         data-aos-offset="200"
