@@ -45,16 +45,16 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  // {
-  //   title: "React Native Developer",
-  //   icon: mobile,
-  // },
+  {
+    title: "Wordpress Developer",
+    icon: mobile,
+  },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Blogger",
     icon: creator,
   },
 ];
@@ -159,13 +159,12 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Paul proved me wrong.",
+    testimonial: "Paul is amazing! He gets the job done .",
     name: "Precious David",
     designation: "CEO",
     company: "Readersplug",
     image:
-      "https://scontent.flos3-1.fna.fbcdn.net/v/t39.30808-6/323697029_1094090961263373_5640651323987900309_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEX9yNqOY5BLoyGg1YSRDjL6qIk_wFCR4rqoiT_AUJHio7dCtrLBXJrTzsQ2z9Xq7-D6BIxgC8dBbG7sHojmdWd&_nc_ohc=LUgcNwTUsSQAX9nT4HQ&_nc_zt=23&_nc_ht=scontent.flos3-1.fna&oh=00_AfDMXypHJzNEwoL4sdPC87IWehPdGYJKMEc_YLkBsueTwg&oe=64306A6D",
+      "https://scontent.flos3-1.fna.fbcdn.net/v/t39.30808-1/323697029_1094090961263373_5640651323987900309_n.jpg?stp=dst-jpg_p480x480&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeEX9yNqOY5BLoyGg1YSRDjL6qIk_wFCR4rqoiT_AUJHio7dCtrLBXJrTzsQ2z9Xq7-D6BIxgC8dBbG7sHojmdWd&_nc_ohc=eLWNbZ4Nr14AX9mADfT&_nc_ht=scontent.flos3-1.fna&oh=00_AfAnjXbJKdQGTk172EWEGWGYcihhGFe8YGZbqZpjaQwv_g&oe=64553AAF",
   },
   {
     testimonial: "Paul is very passionate and I admire that part of him",
@@ -173,7 +172,7 @@ const testimonials = [
     designation: "CEO",
     company: "Arewabooks",
     image:
-      "https://scontent.flos3-2.fna.fbcdn.net/v/t39.30808-1/318212578_3297756740467816_4133923595824317939_n.jpg?stp=c0.0.480.480a_dst-jpg_p480x480&_nc_cat=107&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeEbqJ-dXx-npBttzyDPg1A5Av6T-Za1FTYC_pP5lrUVNoMjp9Nu-geyIG3v-sdBmydnL5AfYKQxwMoFeKSwGSnp&_nc_ohc=WMAf086M2LkAX9HjmC-&_nc_ht=scontent.flos3-2.fna&oh=00_AfAvWjKobrlkq3oJYmobvmIymbf4bBWeEcKwWf1__fkUdg&oe=643093A6",
+      "https://scontent.flos3-2.fna.fbcdn.net/v/t39.30808-1/318212578_3297756740467816_4133923595824317939_n.jpg?stp=c0.0.480.480a_dst-jpg_p480x480&_nc_cat=107&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeEbqJ-dXx-npBttzyDPg1A5Av6T-Za1FTYC_pP5lrUVNoMjp9Nu-geyIG3v-sdBmydnL5AfYKQxwMoFeKSwGSnp&_nc_ohc=-MQ29a4TVVsAX8-BRT1&_nc_ht=scontent.flos3-2.fna&oh=00_AfD7zl6xhvQDY6y8rcOVFHjqd4fhe9cJvJ1563KRagoQHQ&oe=64542C26",
   },
   {
     testimonial: "Paul is always learning",
@@ -293,42 +292,7 @@ const projects = [
     image: "/techgix.png",
     source_code_link: "https://techgix.vercel.app/",
   },
-  {
-    name: "bestVoice",
-    description:
-      "A landing page I built for a client who was hosting a voice competition...",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwindCss",
-        color: "green-text-gradient",
-      },
-    ],
-    image:
-      "https://techiportfolio.vercel.app/_next/image?url=%2Ftenth-gig.png&w=3840&q=75",
-    source_code_link: "https://bestvoice.vercel.app/",
-  },
-  {
-    name: "Bro Ai",
-    description:
-      "A chat gpt clone that can answer questions. Built using the chat gpt Api",
-    tags: [
-      {
-        name: "vanilla js and vite",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-    ],
-    image:
-      "https://techiportfolio.vercel.app/_next/image?url=%2Fsecond-gig.png&w=3840&q=75",
-    source_code_link: "https://techopenai.vercel.app/",
-  },
+
   {
     name: "Hidden Me",
     description:
@@ -351,28 +315,7 @@ const projects = [
       "https://techiportfolio.vercel.app/_next/image?url=%2Fthird-gig.png&w=3840&q=75",
     source_code_link: "https://techopenai.vercel.app/",
   },
-  {
-    name: "Social UI",
-    description:
-      "A social media website ui. Made for the test while building something (still in development)",
-    tags: [
-      {
-        name: "Vanila js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Html",
-        color: "blue-text-gradient",
-      },
-    ],
-    image:
-      "https://techiportfolio.vercel.app/_next/image?url=%2Fsixth-gig.png&w=3840&q=75",
-    source_code_link: "https://social-ui-seven.vercel.app/",
-  },
+
   {
     name: "Payday (clone)",
     description: "cloning the homepage of a fintech. ",
@@ -419,111 +362,17 @@ const projects = [
     source_code_link: "https://tesco-pro.vercel.app/",
   },
   {
-    name: "Ecommerce",
+    name: "Blog",
     description:
-      "Built allong side a tutorial to strengthen my skills as a javascript developer",
+      "Built for a Client . Used wordpress and a little custom code. Added newsletter, send welcome mail, worked on seo etc",
     tags: [
       {
-        name: "vanilla js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "contentful",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-    ],
-    image: "/ecommerce.png",
-    source_code_link: "https://myecommercestore.vercel.app/",
-  },
-  {
-    name: "My first Clone",
-    description:
-      "This was my first clone. Cloned a crypto investment platform homepage",
-    tags: [
-      {
-        name: "Html",
-        color: "blue-text-gradient",
-      },
-
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "/cryptohub.png",
-    source_code_link: "https://crypto-hub-black.vercel.app/",
-  },
-  {
-    name: "Flash Hands",
-    description:
-      "built along side a coding tutorial to learn more on javascript .",
-    tags: [
-      {
-        name: "Html",
-        color: "blue-text-gradient",
-      },
-
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "javascript",
+        name: "Wordpress",
         color: "blue-text-gradient",
       },
     ],
-    image: "/flashhands.png",
-    source_code_link: "https://flashhands.vercel.app/",
-  },
-  {
-    name: "git auth",
-    description:
-      "Built to improve my backend skill and understand the concept behind a topic I was finding hard to understand ",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "/gitfrontend.png",
-    source_code_link: "https://techx.com.ng/",
-  },
-  {
-    name: "My former Portfolio",
-    description:
-      "Built with next js to showcase my skills. After learning framer motion and three.js , I decided to rebild ",
-    tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwindCss",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Aos",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "/techi.png",
-    source_code_link: "https://techiportfolio.vercel.app/",
+    image: "/uncovered9ja.png",
+    source_code_link: "https://uncovered9ja.com.ng/",
   },
 ];
 

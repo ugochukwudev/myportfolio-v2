@@ -46,7 +46,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex items-center justify-center">
-          <p> &#169; Ugochukwu Paul</p>
+          <p> &#169; Ugochukwu Paul {new Date().getFullYear()}</p>
         </div>
       </div>
     </div>

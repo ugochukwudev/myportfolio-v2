@@ -30,7 +30,7 @@ const App = () => {
         </div>
         <div className="relative z-0 px-[6%] ">
           <Contact />
-          {/* <StarsCanvas /> */}
+          <StarsCanvas />
         </div>
         <Footer />
       </div>
