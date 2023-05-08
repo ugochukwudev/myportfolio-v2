@@ -56,7 +56,10 @@ const services = [
   {
     title: "Blogger",
     icon: creator,
-  },
+  },  { 
+     title: "React Native", 
+     icon: mobile, 
+   },
 ];
 
 const technologies = [
