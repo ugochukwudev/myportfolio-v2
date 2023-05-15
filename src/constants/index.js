@@ -119,11 +119,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Next.js Frontend Developer",
+    title: "Next.js Frontend Developer(contract)",
     company_name: "Playjoor",
     icon: "https://pps.whatsapp.net/v/t61.24694-24/241291221_230991255874455_1902867379368839560_n.jpg?ccb=11-4&oh=01_AdQQv3g9NDCQSLtfLJS7_WYeu4QbqgHKzyeos12Jnw9bVA&oe=64391E0F",
     iconBg: "#BA253D",
-    date: "March 2020 - April 2021",
+    date: "March 2021 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -136,7 +136,7 @@ const experiences = [
     company_name: "Arewabooks",
     icon: "https://www.arewabooks.com/headerlogo.png",
     iconBg: "#005bff",
-    date: "Jan 2021 - till Date",
+    date: "Jan 2022 - till Date",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -149,7 +149,7 @@ const experiences = [
     company_name: "Digital Abundance",
     icon: "https://uploads-ssl.webflow.com/622b1486a6cc74d19f97dbef/625e58c71ab33766644633d6_Digital%20Abundance%20logo%202.png",
     iconBg: "#00a166",
-    date: "Jan 2022 - Jan 2023",
+    date: "Oct 2021 - December 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
