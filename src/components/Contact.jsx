@@ -119,20 +119,31 @@ const Contact = () => {
         </h3>
 
         <form
-          data-aos="zoom-in"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
           ref={formRef}
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Name</span>
+            <span
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-delay="40"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              className="text-white font-medium mb-4"
+            >
+              Your Name
+            </span>
             <input
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
               type="text"
               required
               name="name"
@@ -143,8 +154,26 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your email</span>
+            <span
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-delay="60"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              className="text-white font-medium mb-4"
+            >
+              Your email
+            </span>
             <input
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-delay="70"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
               type="email"
               required
               name="email"
@@ -155,8 +184,26 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Message</span>
+            <span
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-delay="80"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              className="text-white font-medium mb-4"
+            >
+              Your Message
+            </span>
             <textarea
+              data-aos="zoom-in"
+              data-aos-offset="200"
+              data-aos-delay="90"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
               rows={7}
               required
               name="message"
@@ -168,6 +215,13 @@ const Contact = () => {
           </label>
 
           <button
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
             type="submit"
             className="bg-tertiary py-3 px-8 rounded-xl transition-all duration-300 hover:bg-white hover:text-tertiary outline-none w-fit text-white font-bold shadow-md shadow-primary"
           >

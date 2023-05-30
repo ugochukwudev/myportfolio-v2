@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
           <a
             className="text-blue-900 transition-all duration-300 hover:scale-x-105 hover:rotate-45"
-            href="https://twitter.com/i_am_ugo_"
+            href="https://twitter.com/impulsejs"
             rel="no-referrer"
             target="_blank"
           >

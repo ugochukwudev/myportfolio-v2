@@ -118,7 +118,7 @@ const experiences = [
   {
     title: "Next.js Frontend Developer",
     company_name: "Playjoor",
-    icon: "https://pps.whatsapp.net/v/t61.24694-24/241291221_230991255874455_1902867379368839560_n.jpg?ccb=11-4&oh=01_AdQQv3g9NDCQSLtfLJS7_WYeu4QbqgHKzyeos12Jnw9bVA&oe=64391E0F",
+    icon: "/afam.jpg",
     iconBg: "#BA253D",
     date: "March 2020 - April 2021",
     points: [
@@ -163,32 +163,28 @@ const testimonials = [
     name: "Precious David",
     designation: "CEO",
     company: "Readersplug",
-    image:
-      "https://scontent.flos3-1.fna.fbcdn.net/v/t39.30808-1/323697029_1094090961263373_5640651323987900309_n.jpg?stp=dst-jpg_p480x480&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeEX9yNqOY5BLoyGg1YSRDjL6qIk_wFCR4rqoiT_AUJHio7dCtrLBXJrTzsQ2z9Xq7-D6BIxgC8dBbG7sHojmdWd&_nc_ohc=eLWNbZ4Nr14AX9mADfT&_nc_ht=scontent.flos3-1.fna&oh=00_AfAnjXbJKdQGTk172EWEGWGYcihhGFe8YGZbqZpjaQwv_g&oe=64553AAF",
+    image: "/precido.jpg",
   },
   {
     testimonial: "Paul is very passionate and I admire that part of him",
     name: "Umar Muhammad",
     designation: "CEO",
     company: "Arewabooks",
-    image:
-      "https://scontent.flos3-2.fna.fbcdn.net/v/t39.30808-1/318212578_3297756740467816_4133923595824317939_n.jpg?stp=c0.0.480.480a_dst-jpg_p480x480&_nc_cat=107&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeEbqJ-dXx-npBttzyDPg1A5Av6T-Za1FTYC_pP5lrUVNoMjp9Nu-geyIG3v-sdBmydnL5AfYKQxwMoFeKSwGSnp&_nc_ohc=-MQ29a4TVVsAX8-BRT1&_nc_ht=scontent.flos3-2.fna&oh=00_AfD7zl6xhvQDY6y8rcOVFHjqd4fhe9cJvJ1563KRagoQHQ&oe=64542C26",
+    image: "/umar.jpg",
   },
   {
     testimonial: "Paul is always learning",
     name: "Mr.Afam ",
     designation: "CEO",
     company: "Playjor",
-    image:
-      "https://pps.whatsapp.net/v/t61.24694-24/223923901_263864472259753_5237833066474087777_n.jpg?ccb=11-4&oh=01_AdRaJ-aHJtk0ATwkv2rtPAD-5cqph1BKjCIUIh7VcLEFbA&oe=643935A7",
+    image: "/afam.jpg",
   },
   {
     testimonial: "Paul is an amazing dev. Loved working with him",
     name: "Mr.Ramadan",
     designation: "Developer",
     company: "Softwares",
-    image:
-      "https://pps.whatsapp.net/v/t61.24694-24/164902555_1956155934582217_676961592964813526_n.jpg?ccb=11-4&oh=01_AdS290hXN5HS7SKRXoCzlpVWBl95DuW85WDUM162ko-4Ew&oe=64391CA4",
+    image: "/ramadan.jpg",
   },
 ];
 
@@ -213,7 +209,7 @@ const projects = [
     ],
     image:
       "https://techiportfolio.vercel.app/_next/image?url=%2Ffourth-gig.png&w=3840&q=75",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://waitlist.readersplug.com",
   },
   {
     name: "Techx",
@@ -290,7 +286,7 @@ const projects = [
       },
     ],
     image: "/techgix.png",
-    source_code_link: "https://techgix.vercel.app/",
+    source_code_link: "https://techgix.xyz/",
   },
 
   {
