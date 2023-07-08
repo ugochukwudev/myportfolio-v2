@@ -56,10 +56,11 @@ const services = [
   {
     title: "Blogger",
     icon: creator,
-  },  { 
-     title: "React Native", 
-     icon: mobile, 
-   },
+  },
+  {
+    title: "React Native",
+    icon: mobile,
+  },
 ];
 
 const technologies = [
@@ -142,7 +143,7 @@ const experiences = [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
-"Managing mobile app for both Android and iOS "
+      "Managing mobile app for both Android and iOS ",
     ],
   },
   {

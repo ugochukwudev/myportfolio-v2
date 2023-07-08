@@ -12,7 +12,6 @@ import {
   StarsCanvas,
   Footer,
 } from "./components";
-
 const App = () => {
   return (
     <BrowserRouter>
