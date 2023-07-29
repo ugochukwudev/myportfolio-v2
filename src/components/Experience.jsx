@@ -91,7 +91,7 @@ const Experience = () => {
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="true"
-        variants={textVariant()}
+        //variants={textVariant()}
       >
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
