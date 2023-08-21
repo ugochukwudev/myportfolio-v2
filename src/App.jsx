@@ -23,13 +23,13 @@ const App = () => {
         <div className="px-[6%] flex flex-col gap-6 ">
           <About />
           <Experience />
-          {/* <Tech /> */}
+          <Tech />
           <Works />
           <Feedbacks />
         </div>
         <div className="relative z-0 px-[6%] ">
           <Contact />
-          {/* <StarsCanvas /> */}
+          <StarsCanvas />
         </div>
         <Footer />
       </div>

@@ -87,11 +87,11 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden my-10`}
+      className={`xl:mt-12 flex lg:flex-row w-full flex-col-reverse items-center  overflow-hidden my-10`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+        className=" bg-black-100 w-[70%] p-8 rounded-2xl"
       >
         <p
           data-aos="fade-up"
@@ -131,7 +131,7 @@ const Contact = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
               className="text-white font-medium mb-4"
             >
               Your Name
@@ -143,7 +143,7 @@ const Contact = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
               type="text"
               required
               name="name"
@@ -161,7 +161,7 @@ const Contact = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
               className="text-white font-medium mb-4"
             >
               Your email
@@ -173,7 +173,7 @@ const Contact = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
               type="email"
               required
               name="email"
@@ -191,7 +191,7 @@ const Contact = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
               className="text-white font-medium mb-4"
             >
               Your Message
@@ -203,7 +203,7 @@ const Contact = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
               rows={7}
               required
               name="message"
@@ -221,7 +221,7 @@ const Contact = () => {
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="false"
+            data-aos-once="true"
             type="submit"
             className="bg-tertiary py-3 px-8 rounded-xl transition-all duration-300 hover:bg-white hover:text-tertiary outline-none w-fit text-white font-bold shadow-md shadow-primary"
           >
@@ -232,7 +232,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:h-auto !w-[50%] md:h-[550px] h-[350px]"
       >
         <EarthCanvas />
       </motion.div>
