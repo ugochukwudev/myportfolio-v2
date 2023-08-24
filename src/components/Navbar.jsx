@@ -91,6 +91,15 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
+            <div
+              style={{
+                background:
+                  "linear-gradient(#2396bf, #0d5b77 40%, #004961 43%, #004961)",
+              }}
+              className={` ${
+                !toggle ? "hidden" : "flex nav-mobile-anime"
+              } h-[100%] absolute bg-red-500 w-[100%] bottom-0 left-0 rounded-xl`}
+            />
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
                 <li

@@ -206,3 +206,79 @@ body {
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+.glass-cage {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+  background: linear-gradient(#2396bf, #0d5b77 40%, #004961 43%, #004961);
+  padding: 10px;
+  animation: colorChange 4s infinite alternate;
+}
+
+.glass-cage.bouncing {
+  animation: bounce 5s infinite;
+}
+
+.glass-cage.reverse {
+  animation-direction: reverse;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(20deg);
+  }
+}
+
+.glass {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+@keyframes colorChange {
+  0% {
+    background: linear-gradient(#2396bf, #0d5b77 40%, #004961 43%, #004961);
+  }
+  50% {
+    background: linear-gradient(#2396bf, #0d5b77 43%, #004961 46%, #004961);
+  }
+  100% {
+    background: linear-gradient(#2396bf, #0d5b77 45%, #004961 49%, #004961);
+  }
+}
+
+.nav-mobile-anime {
+  animation: navmob 0.4s 1 alternate forwards;
+}
+@keyframes navmob {
+  0% {
+    height: 100%;
+  }
+
+  100% {
+    height: 0%;
+  }
+}

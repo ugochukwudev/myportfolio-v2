@@ -91,7 +91,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className=" bg-black-100 w-[70%] p-8 rounded-2xl"
+        className=" bg-black-100 w-full lg:w-[70%] p-8 rounded-2xl"
       >
         <p
           data-aos="fade-up"
@@ -232,7 +232,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto !w-[50%] md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:h-auto w-full lg:!w-[50%] md:h-[550px] h-[350px]"
       >
         <EarthCanvas />
       </motion.div>
