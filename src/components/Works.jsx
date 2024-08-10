@@ -42,6 +42,7 @@ const ProjectCard = ({
   }, []);
   return (
     <motion.div
+    onClick={() => window.open(source_code_link, "_blank")}
       data-aos="fade-up"
       data-aos-offset="200"
       data-aos-delay={50 * (index * 0.5 + 1)}
@@ -57,7 +58,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full cursor-pointer"
       >
         <div
           style={{
@@ -65,9 +66,9 @@ const ProjectCard = ({
             backgroundOrigin: "border-box",
             backgroundRepeat: "no-repeat",
 
-            backgroundSize: "cover",
+            backgroundSize: "contain",
           }}
-          className="relative w-full min-h-[130px]"
+          className="relative w-full min-h-[130px] rounded-lg"
         >
           {/* <img
             src={image}
@@ -75,15 +76,15 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           /> */}
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-end m-3 card-img_hover overflow-hidden">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer overflow-hidden border-2 border-white"
             >
               <img
-                src="/webLink.jpeg"
+                src={image}
                 alt="source code"
-                className="w-[80%] h-[80%] object-contain rounded-full"
+                className="w-10 !h-[150px] object-contain rounded-full"
               />
             </div>
           </div>
