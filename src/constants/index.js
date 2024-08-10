@@ -133,6 +133,20 @@ const experiences = [
     ],
   },
   {
+    title: "Full Stack Developer (intern)",
+    company_name: "Digital Abundance",
+    icon: "https://uploads-ssl.webflow.com/622b1486a6cc74d19f97dbef/625e58c71ab33766644633d6_Digital%20Abundance%20logo%202.png",
+    iconBg: "#00a166",
+    date: "Oct 2021 - December 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on different softwares with different features and functions",
+    ],
+  },
+  {
     title: "Full stack web and mobile developer",
     company_name: "Arewabooks",
     icon: "https://www.arewabooks.com/headerlogo.png",
@@ -146,14 +160,15 @@ const experiences = [
       "Managing mobile app for both Android and iOS ",
     ],
   },
+  
   {
-    title: "Full Stack Developer (intern)",
-    company_name: "Digital Abundance",
-    icon: "https://uploads-ssl.webflow.com/622b1486a6cc74d19f97dbef/625e58c71ab33766644633d6_Digital%20Abundance%20logo%202.png",
-    iconBg: "#00a166",
-    date: "Oct 2021 - December 2021",
+    title: "Full Stack Developer ",
+    company_name: "Blockroll",
+    icon: "https://www.blockroll.app/assets/svg/blockroll-dark-logo.svg",
+    iconBg: "#fff",
+    date: "Oct 2023 - till now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Build Fintech MVP within projected Time .",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -195,16 +210,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Readersplug Waitlist",
+    name: "JettyDelivery",
     description:
-      "A webPage showing a proffesional waitlist ui I built for the waiting list of  a social reading platform",
+      "Get Items delivered to you as soon as Possible",
     tags: [
       {
-        name: "next.js",
+        name: "next.js (admin dashbard)",
         color: "blue-text-gradient",
       },
       {
-        name: "Dolph.js",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
@@ -213,20 +228,20 @@ const projects = [
       },
     ],
     image:
-      "https://techiportfolio.vercel.app/_next/image?url=%2Ffourth-gig.png&w=3840&q=75",
-    source_code_link: "https://waitlist.readersplug.com",
+      "https://i.ibb.co/HBwgdQF/Screenshot-265.png",
+    source_code_link: "https://jettydelivery.ng",
   },
   {
-    name: "Techx",
+    name: "Techgix",
     description:
-      "A blog I built to improve as a developer . used a lot of technologies and practiced CMS",
+      "Stay updated with technews, Learn and connect with like minds",
     tags: [
       {
-        name: "react",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Sanity",
         color: "green-text-gradient",
       },
       {
@@ -247,8 +262,8 @@ const projects = [
       },
     ],
     image:
-      "https://techiportfolio.vercel.app/_next/image?url=%2Ffirst-gig.png&w=2048&q=75",
-    source_code_link: "https://techx.com.ng/",
+      "https://i.ibb.co/74jnpFm/Screenshot-266.png",
+    source_code_link: "https://techgux.xyz",
   },
   {
     name: "Mathematician Portfolio",
@@ -273,9 +288,9 @@ const projects = [
     source_code_link: "https://emekasportfolio.vercel.app/",
   },
   {
-    name: "Techgix",
+    name: "Ivara",
     description:
-      "A blog that gives you a weekly summary of all that's happening in the tech world.",
+      "A global Agency. We have everything to get your business up and running",
     tags: [
       {
         name: "nextjs",
@@ -290,14 +305,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "/techgix.png",
-    source_code_link: "https://techgix.xyz/",
+    image: "https://i.ibb.co/1TFYm43/Screenshot-267.png",
+    source_code_link: "https://ivara.co.uk",
   },
 
   {
-    name: "Hidden Me",
+    name: "Sopuson Waitlist",
     description:
-      "A webPage where you make stories of your day. Built with next.js (full stack frameworl)",
+      "Buy products without fear of been scammed",
     tags: [
       {
         name: "Next.js",
@@ -313,13 +328,13 @@ const projects = [
       },
     ],
     image:
-      "https://techiportfolio.vercel.app/_next/image?url=%2Fthird-gig.png&w=3840&q=75",
-    source_code_link: "https://techopenai.vercel.app/",
+      "https://i.ibb.co/gdRW0pv/Screenshot-268.png",
+    source_code_link: "https://waitlist.sopusons.com",
   },
 
   {
-    name: "Payday (clone)",
-    description: "cloning the homepage of a fintech. ",
+    name: "Ninety9",
+    description: "Buy and sell Crypto",
     tags: [
       {
         name: "Vanila js",
@@ -335,12 +350,12 @@ const projects = [
       },
     ],
     image:
-      "https://techiportfolio.vercel.app/_next/image?url=%2Ftwelveth.png&w=3840&q=75",
-    source_code_link: "https://payday-clone.vercel.app/",
+      "https://i.ibb.co/g7THvXN/Screenshot-269.png",
+    source_code_link: "https://ninety9.vercel.app/dashboard",
   },
   {
-    name: "A School admin DashBoard",
-    description: "Built for a Client . Used Mui .",
+    name: "Playjoor",
+    description: "A social media application",
     tags: [
       {
         name: "react",
@@ -355,12 +370,12 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "node.js",
+        name: "Nextjs",
         color: "green-text-gradient",
       },
     ],
-    image: "/tesco.png",
-    source_code_link: "https://tesco-pro.vercel.app/",
+    image: "https://i.ibb.co/Ln0VCnd/Screenshot-270.png",
+    source_code_link: "https://onlyally.vercel.app/login",
   },
   {
     name: "Blog",
