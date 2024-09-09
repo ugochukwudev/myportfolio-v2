@@ -36,6 +36,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
+          
         </div>
 
         <div>
@@ -61,12 +62,15 @@ const Hero = () => {
             data-aos-once="true"
             className={`${styles.heroSubText} mt-2 text-white-100`}
           >
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces, bots and web applications
+            I develop websites, user <br className="sm:block hidden" />
+            interfaces, bots , mobile and web applications
           </p>
+          
         </div>
+        
       </div>
-
+     
+      
       {/* <ComputersCanvas /> */}
       {/* <GPT /> */}
 
