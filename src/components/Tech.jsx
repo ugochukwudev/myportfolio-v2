@@ -31,6 +31,7 @@ const Tech = () => {
       <div className="lg:hidden flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology, i) => (
           <div
+          key={i}
             className={`glass-cage ${
               i % 2 == 0 ? "bouncing" : " bouncing reverse"
             }  hover:scale-150`}
