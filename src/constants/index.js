@@ -119,27 +119,16 @@ const technologies = [
 ];
 
 const experiences = [
+  
+  
   {
-    title: "Next.js Frontend Developer(contract)",
-    company_name: "Playjoor",
-    icon: "/afam.jpg",
-    iconBg: "#BA253D",
-    date: "March 2021 - April 2021",
+    title: "Full Stack Developer ",
+    company_name: "Blockroll",
+    icon: "https://www.blockroll.app/assets/svg/blockroll-dark-logo.svg",
+    iconBg: "#fff",
+    date: "Oct 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full Stack Developer (intern)",
-    company_name: "Digital Abundance",
-    icon: "https://uploads-ssl.webflow.com/622b1486a6cc74d19f97dbef/625e58c71ab33766644633d6_Digital%20Abundance%20logo%202.png",
-    iconBg: "#00a166",
-    date: "Oct 2021 - December 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Build Fintech MVP within projected Time .",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -151,7 +140,7 @@ const experiences = [
     company_name: "Arewabooks",
     icon: "https://www.arewabooks.com/headerlogo.png",
     iconBg: "#005bff",
-    date: "Jan 2022 - till Date",
+    date: "Jan 2022 - Oct 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -162,17 +151,30 @@ const experiences = [
   },
   
   {
-    title: "Full Stack Developer ",
-    company_name: "Blockroll",
-    icon: "https://www.blockroll.app/assets/svg/blockroll-dark-logo.svg",
-    iconBg: "#fff",
-    date: "Oct 2023 - till now",
+    title: "Full Stack Developer (intern)",
+    company_name: "Digital Abundance",
+    icon: "https://uploads-ssl.webflow.com/622b1486a6cc74d19f97dbef/625e58c71ab33766644633d6_Digital%20Abundance%20logo%202.png",
+    iconBg: "#00a166",
+    date: "Sept 2021 - December 2023",
     points: [
-      "Build Fintech MVP within projected Time .",
+      "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
       "Worked on different softwares with different features and functions",
+    ],
+  },
+  {
+    title: "Next.js Frontend Developer(contract)",
+    company_name: "Playjoor",
+    icon: "/afam.jpg",
+    iconBg: "#BA253D",
+    date: "March 2021 - April 2021",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
