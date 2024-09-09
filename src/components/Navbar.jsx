@@ -72,7 +72,7 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive("cv")}
           >
-            <a href={`/cv/resume.pdf`} download="ugo's-resume" target="_blank">
+            <a href={`/cv/resume.docx`} download="ugo's-resume" target="_blank">
               Resume
             </a>
           </li>
@@ -126,7 +126,7 @@ const Navbar = () => {
                 }}
               >
                 <a
-                  href={`/cv/resume.pdf`}
+                  href={`/cv/resume.docx`}
                   download="ugo's-resume"
                   target="_blank"
                 >
