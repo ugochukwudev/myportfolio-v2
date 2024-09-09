@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Tilt from "react-tilt";
+import {Tilt} from "react-tilt";
 import { motion } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
